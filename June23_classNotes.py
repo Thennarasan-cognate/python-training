@@ -1,3 +1,4 @@
+#this file is a class notes for June 23rd
 #global
 name='this is a global string'
 def greet():
