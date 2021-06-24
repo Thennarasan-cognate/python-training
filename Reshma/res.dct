@@ -1,0 +1,100 @@
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> dct={'reshma':'savadikuppam','ramya':'cuddalore','anand':'railwaykodur','thenna':'sathavattam'}
+>>> dct
+{'reshma': 'savadikuppam', 'ramya': 'cuddalore', 'anand': 'railwaykodur', 'thenna': 'sathavattam'}
+>>> lst=['savadikuppam','cuddalore','railwaykodur','sathavattam']
+>>> dct['ramya']
+'cuddalore'
+>>> lst1[1]
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    lst1[1]
+NameError: name 'lst1' is not defined
+>>> lst[1]
+'cuddalore'
+>>> dct={1:'savadikuppam',2:'cuddalore','anand':'railwaykodur','thenna':'sathavattam'}
+>>> dct[2]
+'cuddalore'
+>>> dct['reshma']
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    dct['reshma']
+KeyError: 'reshma'
+>>> dct['thenna']
+'sathavattam'
+>>> dt1={1:('savadikuppam',23)2:'cuddalore','anand':['railwaykodur',200,5,5],'thenna':'sathavattam'}
+SyntaxError: invalid syntax
+>>> dt1={1:('savadikuppam',23),2:'cuddalore','anand':['railwaykodur',200,5,5],'thenna':'sathavattam'}
+>>> dt1[1]
+('savadikuppam', 23)
+>>> dt1['anand']
+['railwaykodur', 200, 5, 5]
+>>> dt1={'ramya':'cuddalore','reshma':'cuddalore'}
+>>> dt1['reshma']
+'cuddalore'
+>>> dt1['cuddalore']
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    dt1['cuddalore']
+KeyError: 'cuddalore'
+>>> dt1={'cuddalore':'ramya','cuddalore':'reshma'}
+>>> dt1['cuddalore']
+'reshma'
+>>> dt1={1:('savadikuppam',23),2:'cuddalore','anand':['railwaykodur',200,5,5],'thenna':'sathavattam'}
+>>> len(dt1)
+4
+>>> dct={'reshma':'savadikuppam','ramya':'cuddalore','anand':'railwaykodur','thenna':'sathavattam'}
+>>> max(dct)
+'thenna'
+
+>>> min(dct)
+'anand'
+>>> del dct['ramya']
+>>> del
+SyntaxError: invalid syntax
+>>> del dct['anand']
+>>> del
+SyntaxError: invalid syntax
+>>> del dct['anand']
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    del dct['anand']
+KeyError: 'anand'
+>>> del dct['thenna']
+>>> dct={'reshma':'savadikuppam','ramya':'cuddalore','anand':'railwaykodur','thenna':'sathavattam'}
+>>> dct.pop('anand')
+'railwaykodur'
+>>> dct.clear()
+>>> dct()
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    dct()
+TypeError: 'dict' object is not callable
+>>> dct{}
+SyntaxError: invalid syntax
+>>> dct.clear()
+>>> dct{}
+SyntaxError: invalid syntax
+>>>  del dct['thenna']
+ 
+SyntaxError: unexpected indent
+>>> del dct['thenna']
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    del dct['thenna']
+KeyError: 'thenna'
+>>> dct={'reshma':'savadikuppam','ramya':'cuddalore','anand':'railwaykodur','thenna':'sathavattam'}
+>>> dct.pop('ananad')
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    dct.pop('ananad')
+KeyError: 'ananad'
+>>> dct.pop{'reshma')
+SyntaxError: invalid syntax
+>>> dct.pop('reshma')
+'savadikuppam'
+>>> dct.clear()
+>>> dct{}
+SyntaxError: invalid syntax
+>>> 
