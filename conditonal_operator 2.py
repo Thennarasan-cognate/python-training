@@ -1,12 +1,12 @@
-'''
+
 mask=60
 if mask<60:
 	print('i will buy the mask')
-elif mask>=40 and mask<=60:
+elif mask>=40 and mask<60:
         print('i will buy later')
 else:
         print('i will not buy the mask')
-'''
+        
 
 '''
 mask=60
@@ -20,7 +20,7 @@ else:
 '''
                 
 
-
+'''
 a=input('Enter the value of a:')
 b=input('Enter the value of b:')
 c=input('Enter the value of c:')
@@ -37,5 +37,5 @@ elif c>a and c>b:
 else:
      print (' a, b ,c are equal ')
 
-    
+  '''  
 

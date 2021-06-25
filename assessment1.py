@@ -3,10 +3,15 @@ dic={'a':25,'b':'variant','c':'hi'}
 for x in dic:
     if x=='b':
         print("it is a variant")
-        break
+        continue
     print(x)
     print("not a variant")
 print("done")
+
+
+
+
+
 
 '''
 for x in ('test',1,(2+4j),'world','thenna'):                  
